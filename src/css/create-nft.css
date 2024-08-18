@@ -1,0 +1,16 @@
+.main-section {
+    min-height: 100vh;
+}
+.main-section form .form-control{
+    background-color: transparent !important;
+    color: white;
+    font-size: 14px;
+    padding: 15px 20px;
+    outline: unset !important;
+    box-shadow: unset !important;
+}
+
+.main-section form .form-control::placeholder{
+    color: white;
+    opacity: 0.7;
+}

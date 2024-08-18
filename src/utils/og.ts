@@ -1,0 +1,1 @@
+export const OgImage = "https://media.dscvr.one/fetch?fit=scale-down&height=40&media=https%3A%2F%2Fcdn.simplehash.com%2Fassets%2F42d316e7069b3884c31f64a5a4fd570e53cf8cb1bc769d2bef79084376b239e0.png&quality=75&width=40"
