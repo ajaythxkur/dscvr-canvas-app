@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Pixelify_Sans } from "next/font/google";
+import { Josefin_Sans } from "next/font/google";
 import Bootstrap from "@/context/bootstrap";
 import 'bootstrap/dist/css/bootstrap.css'
 import "./globals.css";
 
-const roboto = Pixelify_Sans({ subsets: ["latin"], weight: "500" });
+const font = Josefin_Sans({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
-  title: "Dscvr Talent",
-  description: "Dscvr talent showcase app",
+  title: "App Title",
+  description: "App description",
   other: {
     "dscvr:canvas:version":"vNext",
     "og:image": "/next.svg"
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body className={font.className}>
         {children}
         <Bootstrap />
       </body>
